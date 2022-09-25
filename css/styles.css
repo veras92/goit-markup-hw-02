@@ -8,63 +8,83 @@
 body {
   font-family: "Roboto", sans-serif;
   color: var(--mainTextColor);
-  background-color: #f5f5f5;
 }
-header {
+.headerClass {
   background-color: white;
   font-weight: 500;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 2.2;
   letter-spacing: 0.02em;
-  border: 1px solid #ececec;
+  border-bottom: 1px solid #ececec;
 }
-footer {
-  background-color: var(--greyColor);
-  font-size: 14px;
-  line-height: 24px;
-  letter-spacing: 0.03em;
-}
-ul {
-  list-style-type: none;
-}
-a {
-  color: var(--mainTextColor);
+.ulClass a {
   text-decoration: none;
 }
-h2 {
+.contactInfo a {
+  color: rgba(255, 255, 255, 0.6);
+}
+.contactInfoHead {
+  color: var(--smallTextColor);
+}
+.footerClass {
+  background-color: var(--greyColor);
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+  font-style: normal;
+}
+.ulClass {
+  list-style-type: none;
+}
+.smallerHeadings {
   font-weight: 700;
   font-size: 36px;
-  line-height: 42px;
+  line-height: 1.2;
   text-align: center;
   letter-spacing: 0.03em;
 }
-h3 {
+.teamName {
   font-weight: 700;
-  font-size: 14px;
-  line-height: 16px;
+  font-size: 16px;
+  line-height: 1.1;
   letter-spacing: 0.03em;
   text-transform: uppercase;
 }
-h4 {
+.smallerFont {
+  font-size: 14px;
+}
+.projectClass {
   font-weight: 700;
   font-size: 18px;
-  line-height: 36px;
+  line-height: 2;
   letter-spacing: 0.06em;
 }
-address {
+.adressInfo {
+  color: white;
+}
+.adressClass {
   font-style: normal;
 }
-
-p {
+.lightGreyText {
   color: var(--smallTextColor);
 }
 
-span {
+.logoChange {
   color: black;
 }
-
-button:hover,
-button:focus {
+.fontSizeChange {
+  font-size: 14px;
+}
+.navButtonAll:hover,
+.navButtonAll:focus,
+.navButtonSite:hover,
+.navButtonSite:focus,
+.navButtonApp:hover,
+.navButtonApp:focus,
+.navButtonDesign:hover,
+.navButtonDesign:focus,
+.navButtonMarketing:hover,
+.navButtonMarketing:focus {
   background-color: var(--blueColor);
   color: white;
   cursor: pointer;
@@ -81,11 +101,11 @@ nav a:focus {
 .telNumber:focus {
   color: var(--blueColor);
 }
-.telNumber {
-  color: var(--smallTextColor);
-}
-.mail {
+.studio {
   color: var(--blueColor);
+}
+.mail .telNumber {
+  color: var(--smallTextColor);
 }
 .logo {
   color: var(--blueColor);
@@ -93,7 +113,7 @@ nav a:focus {
   text-decoration: none;
   font-weight: 700;
   font-size: 26px;
-  line-height: 31px;
+  line-height: 1.2;
 }
 
 .footerLogo {
@@ -105,7 +125,7 @@ nav a:focus {
   font-style: normal;
   font-weight: 900;
   font-size: 44px;
-  line-height: 60px;
+  line-height: 1.4;
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
@@ -113,17 +133,14 @@ nav a:focus {
 .orderButton {
   background-color: var(--blueColor);
   color: white;
-  width: 216px;
-  height: 50px;
-  left: 692px;
-  top: 430px;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
   font-style: normal;
   font-weight: 700;
   font-size: 16px;
-  line-height: 30px;
+  line-height: 1.9;
   letter-spacing: 0.06em;
+  font-family: inherit;
 }
 .teamSection {
   background-color: var(--lightGreyBackground);
@@ -137,14 +154,14 @@ nav a:focus {
 .navButtons button {
   background-color: var(--lightGreyBackground);
   border-radius: 4px;
-  height: 38px;
   color: var(--mainTextColor);
   font-style: normal;
   font-weight: 500;
   font-size: 16px;
-  line-height: 26px;
+  line-height: 1.6;
   text-align: center;
   letter-spacing: 0.03em;
+  font-family: inherit;
 }
 .navButtonAll {
   width: 73px;
