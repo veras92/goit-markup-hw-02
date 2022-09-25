@@ -13,9 +13,12 @@ body {
   background-color: white;
   font-weight: 500;
   font-size: 14px;
-  line-height: 2.2;
+  line-height: 1.2;
   letter-spacing: 0.02em;
   border-bottom: 1px solid #ececec;
+}
+.navList {
+  color: var(--mainTextColor);
 }
 .ulClass a {
   text-decoration: none;
@@ -74,6 +77,7 @@ body {
 }
 .fontSizeChange {
   font-size: 14px;
+  line-height: 1.7;
 }
 .navButtonAll:hover,
 .navButtonAll:focus,
@@ -151,6 +155,9 @@ nav a:focus {
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
 }
+.whatTeamDoes {
+  line-height: 1.2;
+}
 .navButtons button {
   background-color: var(--lightGreyBackground);
   border-radius: 4px;
@@ -178,4 +185,7 @@ nav a:focus {
 .projectsUL {
   background: #ffffff;
   border: 1px solid #eeeeee;
+}
+.projectDesc {
+  line-height: 1.9;
 }
